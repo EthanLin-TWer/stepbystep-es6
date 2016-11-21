@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "ES6 learning examples and demos.",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "cp ./dev/prepare-commit-msg .git/hooks/ && chmod +x .git/hooks/prepare-commit-msg"
+  },
   "keywords": [
     "es6",
     "javascript",
