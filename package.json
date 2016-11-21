@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "cp ./dev/prepare-commit-msg .git/hooks/ && chmod +x .git/hooks/prepare-commit-msg",
-    "module": "nodemon --exec babel-node --presets=es2015 -- module/main.js"
+    "module": "nodemon --exec babel-node --presets=es2015 -- module/import.js module/default-import.js"
   },
   "keywords": [
     "es6",
