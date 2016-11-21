@@ -2,5 +2,7 @@
 
 diff_content=$(cat $1)
 
-echo "[#] Linesh: " > $1
+echo "Linesh: \n" > $1
+echo "[linesh-simplicity/meta-learnings#]" >> $1
+
 echo "$diff_content" >> $1
