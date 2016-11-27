@@ -21,3 +21,9 @@ let users = [maria, john]
 users.forEach(user => {
    console.log(`${user.name} is tyring to ${user.behaviour}, denied.`)
 })
+
+// comparing to the old way of doing this:
+users.forEach(user => {
+   let log = user.name + ' is trying to ' + user.behaviour + ', denied'
+   console.log(log)
+})
